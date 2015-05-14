@@ -1,0 +1,5 @@
+if 
+grep -lm/proc/cpuinfo >/dev/null
+then echo "system is 32 bit"
+"system is 64 bit"
+fi
